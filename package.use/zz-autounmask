@@ -1,0 +1,59 @@
+# package.use# required by net-misc/openssh-7.7_p1-r9::gentoo[ssl,-static,-libressl]
+# required by virtual/ssh-0::gentoo[-minimal]
+# required by @system
+# required by @world (argument)
+>=dev-libs/openssl-1.0.2p -bindist
+# required by dev-libs/weston-3.0.0::gentoo[gles2]
+# required by weston (argument)
+>=media-libs/mesa-18.1.6 gles2
+# required by www-client/google-chrome-69.0.3497.92::gentoo
+# required by google-chrome (argument)
+>=x11-libs/gtk+-3.22.30 
+# required by x11-misc/xdg-utils-1.1.1-r1::gentoo
+# required by www-client/google-chrome-69.0.3497.92::gentoo
+# required by google-chrome (argument)
+>=app-text/xmlto-0.0.26-r1 text
+# required by x11-libs/gtk+-3.22.30::gentoo
+# required by x11-themes/adwaita-icon-theme-3.24.0::gentoo
+>=media-libs/libepoxy-1.5.1 X
+# required by x11-libs/gtk+-3.22.30::gentoo
+# required by x11-themes/adwaita-icon-theme-3.24.0::gentoo
+>=x11-libs/cairo-1.14.12 X
+# required by net-print/cups-filters-1.20.4::gentoo[postscript]
+# required by net-print/cups-2.2.7::gentoo
+# required by www-client/google-chrome-69.0.3497.92::gentoo
+# required by google-chrome (argument)
+>=app-text/ghostscript-gpl-9.21 cups
+media-libs/libuninameslist compiler-clang-fno-lot
+media-gfx/fontforge compuler-clang-fno-lto
+# required by x11-wm/mutter-3.24.4::gentoo
+# required by x11-wm/mutter (argument)
+>=dev-libs/glib-2.52.3 dbus
+# required by x11-wm/mutter-3.24.4::gentoo
+# required by x11-wm/mutter (argument)
+>=x11-libs/libxkbcommon-0.8.0 X
+# required by dev-util/vulkan-tools-1.1.77.0-r2::gentoo
+# required by vulkan-tools (argument)
+>=media-libs/vulkan-loader-1.1.77.0 X
+# required by x11-drivers/nvidia-drivers-396.54::gentoo[tools]
+# required by x11-base/xorg-drivers-1.19::gentoo[video_cards_nvidia]
+# required by x11-base/xorg-server-1.19.5-r2::gentoo[xorg]
+# required by x11-drivers/xf86-input-keyboard-1.9.0::gentoo
+>=x11-libs/gdk-pixbuf-2.36.12 X
+# required by x11-drivers/nvidia-drivers-396.54::gentoo[tools]
+# required by x11-base/xorg-drivers-1.19::gentoo[video_cards_nvidia]
+# required by x11-base/xorg-server-1.19.5-r2::gentoo[xorg]
+# required by x11-drivers/xf86-input-keyboard-1.9.0::gentoo
+>=x11-libs/pango-1.42.4 X
+# required by x11-libs/libxkbcommon-0.8.0::gentoo[X]
+# required by x11-libs/gtk+-3.22.30::gentoo[wayland]
+# required by x11-themes/adwaita-icon-theme-3.24.0::gentoo
+# required by x11-libs/gtk+-2.24.32::gentoo
+# required by x11-themes/gtk-engines-adwaita-3.22.3::gentoo
+>=x11-libs/libxcb-1.13 xkb
+# required by app-editors/neovim-0.3.1::gentoo
+# required by neovim (argument)
+>=dev-lua/lpeg-1.0.1 luajit
+# required by app-editors/neovim-0.3.1::gentoo
+# required by neovim (argument)
+>=dev-lua/mpack-1.0.4 luajit

@@ -1,0 +1,19 @@
+dev-util/cmake ~amd64
+sys-kernel/vanilla-sources ~amd64
+dev-libs/efl ~amd64
+dev-libs/boehm-gc ~amd64
+# required by vulkan-headers (argument)
+=dev-util/vulkan-headers-1.1.77.0-r1 ~amd64
+# required by vulkan-tools (argument)
+=dev-util/vulkan-tools-1.1.77.0-r2 ~amd64
+# required by dev-util/vulkan-tools-1.1.77.0-r2::gentoo[cube]
+# required by vulkan-tools (argument)
+=dev-util/glslang-6.2.2596 ~amd64
+# required by dev-util/vulkan-tools-1.1.77.0-r2::gentoo
+# required by vulkan-tools (argument)
+=media-libs/vulkan-loader-1.1.77.0 ~amd64
+# required by neovim (argument)
+=app-editors/neovim-0.3.1 ~amd64
+# required by app-editors/neovim-0.3.1::gentoo
+# required by neovim (argument)
+=dev-libs/msgpack-1.1.0 ~amd64

@@ -1,0 +1,7 @@
+CC="gcc"
+CXX="g++"
+CFLAGS="-fno-lto -march=native -O2 -pipe"
+CXXFLAGS="${CFLAGS}"
+AR="ar"
+NM="nm"
+RANLIB="ranlib"

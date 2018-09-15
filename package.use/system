@@ -1,0 +1,8 @@
+sys-devel/llvm gold
+#sys-devel/clang -python_targets_python2_7
+#dev-libs/openssl bindist
+dev-libs/weston dbus editor examples fbdev wayland-compositor drm
+dev-util/vulkan-tools X
+x11-drivers/nvidia-drivers X uvm
+x11-libs/libdrm video_cards_nouveau
+app-editors/emacs xwidgets
